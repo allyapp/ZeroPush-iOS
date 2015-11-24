@@ -193,6 +193,7 @@
 				F846088519C35A50006D19DF /* Frameworks */,
 				F846088619C35A50006D19DF /* Resources */,
 				889C2535E886442BA91F6638 /* Copy Pods Resources */,
+				4FEDA3B23DE10DACDD317502 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +249,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4FEDA3B23DE10DACDD317502 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZeroPush-iOS Tests/Pods-ZeroPush-iOS Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		889C2535E886442BA91F6638 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
